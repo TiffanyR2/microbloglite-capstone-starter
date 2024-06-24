@@ -10,6 +10,23 @@
 //   -d '{
 //   "text": "string"
 // }'
+function like(postId){
+    fetch(apiBaseURL + "/api/likes", {
+        method: "POST",
+        headers: {
+            accept: "application/json",
+            "Content-Type": "application/json",
+            Authorization: "Bearer " + localStorage.token
+        },
+        body: JSON.stringify({
+            postId: postId
+        })
+    }).then(response => {
+        console.log(response);
+        location = "/posts/";  //force refresh
+    });
+}
+
 btnPost.addEventListener("click", () => {
     fetch(apiBaseURL + "/api/posts", {
         method: "POST",
@@ -32,6 +49,9 @@ function getMessage(message) {
         <div class="createdAt">${message.createdAt}</div>
         <div class="ID:">${message._id}</div>
         <div class="Likes:">${message.likes.length}</div>
+        <div class="Likes:">${message.likes.length} Likes 
+        <button onclick="like('${message._id}')">Like</button>
+        </div>
     </div>
     <hr>
     `;
