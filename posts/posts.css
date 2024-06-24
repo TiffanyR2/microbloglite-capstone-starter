@@ -6,7 +6,7 @@ body{
 nav{
     background-color:black;
     box-shadow: 3px 3px 5px rgba(148, 8, 150, 0.704);
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     align-items: center;
 }
@@ -38,4 +38,11 @@ aside{
 #logos{
     height: 6rem;
   align-items:center
+}
+#btnLog{
+    box-shadow: 3px 3px 2px black;
+    background-color:whitesmoke;
+}
+#btnLog:hover{
+    background-color: purple;
 }

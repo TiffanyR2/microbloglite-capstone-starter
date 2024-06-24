@@ -1,1 +1,41 @@
 /* Landing Page CSS */
+body{
+    background-color: grey;
+}
+
+nav{
+    background-color:black;
+    box-shadow: 3px 3px 5px rgba(148, 8, 150, 0.704);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: x-large;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav a:hover{
+    background-color: rgb(162, 12, 192);
+}
+aside{
+    float: right;
+}
+#logos{
+    height: 6rem;
+  align-items:center
+}
