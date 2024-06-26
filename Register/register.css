@@ -56,7 +56,10 @@ footer{
     width: 100vw;
 }
 #login {
-    max-width: 20rem;
+    /* max-width: 20rem; */
+    /* width: 80%; */
+    flex: 1;
+    padding: 2rem;
 }
 
 #login label {
@@ -69,7 +72,7 @@ footer{
 .centered {
     margin: auto;
     margin-top: 3rem;
-    box-shadow: 1rem 1rem 1rem;
+    box-shadow: 0rem 0rem 2rem rgba(0,0,0,0.95);
     border: 1rem solid rgba(7, 7, 7, 0.984);
 }
 #username{
@@ -97,4 +100,33 @@ footer{
 }
 h1{
     color: black;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+margin-top: 3rem;
+gap: 3rem;
+justify-content: space-around;
+width: 80vw;
+margin: auto;
+}
+#flower{
+    height: 50vh;
+    width: 30vh;
+    /* padding: 108px; */
+    display: flex;
+    justify-content: center;
+    /* margin-right: 50vh; */
+    /* margin-top: ; */
+}
+#flowerEle{
+    height: 50vh;
+    width: 30vh;
+    /* padding: 108px; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 120vh; */
+    /* margin-top: -950px; */
 }

@@ -110,7 +110,7 @@ h2 {
 .container .card {
     position: relative;
     width: 500px;
-    height: 230px;
+    /* height: 230px; */
     padding: 15px;
     background: linear-gradient(60deg, #151516 0%, #1d2229 100%);
     overflow: hidden;
