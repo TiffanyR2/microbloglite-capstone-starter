@@ -92,8 +92,11 @@ footer{
     justify-content: center;
 }
 h1{
-    color: black;
+    color: white;
 }
 #loginButton:hover{
     background-color: rgb(162, 12, 192);
+}
+#welEle{
+    color: black;
 }

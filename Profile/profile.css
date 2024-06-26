@@ -73,8 +73,16 @@ h1{
 #profileElement:hover{
 background-color: gold;
 }
-
-
+#bioElement{
+    background-color: rgb(0,0,0,0.3);
+ font-size: medium;
+ color: #e832f5;
+    display: flex;
+    
+}
+h2{
+    color: white;
+}
 
 .container{
     width: 100%;
