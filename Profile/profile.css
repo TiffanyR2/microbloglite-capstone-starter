@@ -55,7 +55,8 @@ header{
     display: flex;
     margin: auto;
     justify-content: center;
-    
+    border: 3px solid #e832f5;
+    border-radius: 25px;
 }
 footer{background-image: url(../photo/star.jpg);
     display: flex;
@@ -65,4 +66,7 @@ footer{background-image: url(../photo/star.jpg);
     position: fixed;
     bottom: 0;
     width: 100vw;
+}
+h1{
+    color: black;
 }

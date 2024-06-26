@@ -64,6 +64,7 @@ header{
     display: flex;
     margin: auto;
     justify-content: center;
+    color: black;
 }
 #newPostForm{
     display: flex;
