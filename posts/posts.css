@@ -60,28 +60,32 @@ aside {
 #btnLog:hover {
     background-color: purple;
 }
-header{
+
+header {
     display: flex;
     margin: auto;
     justify-content: center;
     color: black;
 }
-#newPostForm{
+
+#newPostForm {
     display: flex;
     margin: auto;
     justify-content: center;
 }
-footer{
+
+footer {
     background-image: url(../photo/star.jpg);
     display: flex;
-    background-size:contain;
-    background-repeat:repeat-x;
+    background-size: contain;
+    background-repeat: repeat-x;
     height: 3rem;
     position: fixed;
     bottom: 0;
     width: 100vw;
 }
-#btnPost:hover{
+
+#btnPost:hover {
     background-color: gold;
 
 }

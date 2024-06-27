@@ -10,7 +10,7 @@
 //   -d '{
 //   "text": "string"
 // }'
-function like(postId){
+function like(postId) {
     fetch(apiBaseURL + "/api/likes", {
         method: "POST",
         headers: {

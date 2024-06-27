@@ -1,24 +1,25 @@
 /* Landing Page CSS */
-body{
+body {
     /* background-color: grey; */
-        /* background-color: grey; */
-        background-image: url(../photo/metalic.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: 0;
-        background-attachment: fixed;
-        color: rgb(190, 190, 190);
-    
+    /* background-color: grey; */
+    background-image: url(../photo/metalic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+    background-attachment: fixed;
+    color: rgb(190, 190, 190);
+
 }
 
-nav{
-    background-color:black;
+nav {
+    background-color: black;
     box-shadow: 3px 3px 5px rgba(148, 8, 150, 0.704);
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
@@ -26,10 +27,12 @@ nav ul{
     align-items: center;
     font-size: x-large;
 }
-nav li{
+
+nav li {
     height: 50px;
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -37,21 +40,25 @@ nav a{
     align-items: center;
     color: white;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: rgb(162, 12, 192);
 }
-aside{
+
+aside {
     float: right;
 }
-#logos{
+
+#logos {
     height: 6rem;
-  align-items:center
+    align-items: center
 }
-footer{
+
+footer {
     background-image: url(./photo/star.jpg);
     display: flex;
-    background-size:contain;
-    background-repeat:repeat-x;
+    background-size: contain;
+    background-repeat: repeat-x;
     height: 3rem;
     position: fixed;
     bottom: 0;
@@ -70,51 +77,60 @@ footer{
     padding: 1rem;
     color: black;
 }
+
 .centered {
     margin: auto;
     margin-top: 3rem;
-    box-shadow: 0rem 0rem 2rem rgba(0,0,0,0.95);
+    box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.95);
     border: 1rem solid rgba(7, 7, 7, 0.984);
     width: 80vh;
 }
-#loginButton{
+
+#loginButton {
     margin: auto;
     display: flex;
     justify-content: center;
 }
-#username{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    width: 20vh;
-}
-#password{
+
+#username {
     margin: auto;
     display: flex;
     justify-content: center;
     width: 20vh;
 }
-h1{
+
+#password {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+}
+
+h1 {
     color: white;
 }
-#loginButton:hover{
+
+#loginButton:hover {
     background-color: rgb(162, 12, 192);
 }
-#welEle{
+
+#welEle {
     color: black;
 }
-main{
+
+main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-align-items: center;
-margin-top: 3rem;
-gap: 3rem;
-justify-content: space-around;
-width: 80vw;
-margin: auto;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
 }
-#flower{
+
+#flower {
     height: 50vh;
     width: 30vh;
     /* padding: 108px; */
@@ -123,7 +139,8 @@ margin: auto;
     /* margin-right: 50vh; */
     /* margin-top: ; */
 }
-#flowerEle{
+
+#flowerEle {
     height: 50vh;
     width: 30vh;
     /* padding: 108px; */

@@ -1,5 +1,5 @@
 const loginData = getLoginData();
-function showProfile(user){
+function showProfile(user) {
     msgElement.value = user.bio;
     bioElement.innerHTML = user.bio;
 }
