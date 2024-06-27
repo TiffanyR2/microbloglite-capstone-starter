@@ -43,7 +43,7 @@ btnPost.addEventListener("click", () => {
 
 function getMessage(message) {
     return `
-    <div>
+    <div class="post">
         <h1>${message.text}</h1>
         <div class="username">${message.username}</div>
         <div class="createdAt">${message.createdAt}</div>

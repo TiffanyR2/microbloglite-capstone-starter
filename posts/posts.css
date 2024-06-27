@@ -1,6 +1,5 @@
 /* Posts Page CSS */
 body {
-    /* background-color: grey; */
     background-image: url(../photo/metalic.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -88,4 +87,24 @@ footer {
 #btnPost:hover {
     background-color: gold;
 
+}
+
+.post {
+    /* display: inline-block; */
+    box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.95);
+    border: 0.3rem solid rgba(7, 7, 7, 0.984);
+    justify-items: center;
+    align-items: baseline;
+    display: grid;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    color: black;
+
+}
+
+#messagesOutput {
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
