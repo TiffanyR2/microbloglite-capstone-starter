@@ -84,6 +84,7 @@ footer {
     box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.95);
     border: 1rem solid rgba(7, 7, 7, 0.984);
     width: 80vh;
+    height: 60vh;
 }
 
 #loginButton {
